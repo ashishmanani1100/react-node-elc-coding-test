@@ -1,0 +1,21 @@
+div.pagination-container{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 240px;
+}
+
+div h4.total-records{
+    color: white;
+    font-size: 20px;
+}
+
+div.pagination-container div.btn-pagination-container button.btn-pagnation{
+    height: 30px;
+    width: 30px;
+}
+
+div.pagination-container div.btn-pagination-container button.btn-selected{
+    background-color:grey;
+}
+

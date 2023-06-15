@@ -1,0 +1,33 @@
+/**
+ * This is the central home page
+ *
+ */
+section#home {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0; left: 0;
+    padding: 100px 20px 0;
+    background-image: url('/img/header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    div.content {
+        max-width: $siteWidth;
+        margin: 0 auto;
+        color: #FFF;
+    }
+}
+
+section#home div.content{
+    display: flex;
+    justify-content: end;
+    // align-items: center;
+    // height: 80vh;
+}
+
+section#home div.content p{
+    font-size: 25px;
+    width: 700px;
+}
